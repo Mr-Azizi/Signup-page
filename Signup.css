@@ -1,0 +1,238 @@
+@font-face
+{
+    font-family: "Vasir black";
+    src: url(../font/ttf/Vazirmatn-Black.ttf) format(truetype),
+    url(../font/woff2/Vazirmatn-Black.woff2) format(woff2);
+    font-family: "Poetson";
+    src: url(./font/PoetsenOne-Regular.ttf) format(truetype);
+    
+    
+    
+    font-family: "Orbitron";
+    src: url(./font/static/Orbitron-Black.ttf) format(truetype);
+}
+@font-face{
+    font-family: "Roboto";
+    src: url(./font/Roboto/Roboto-Black.ttf) format(truetype);
+}
+*{
+    font-family: "Roboto";
+    
+}
+
+body{
+    background: url(./background/Background\ Glass.png);
+    background-size: 100vw;
+}
+
+h2{
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #282A36;
+    text-align: left;
+    padding-top: 38px ;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+form{
+    display:flexbox ;
+    background-color: #ffffff;
+    width: 590px;
+    height: 871px;
+    border-radius: 24px;
+}
+
+.input{
+    width: 510px;
+    height: 67px;
+    margin: 0 0 0 30px;
+}
+
+input{
+    width: 510px;
+    height: 32px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #ccc;
+    outline: none;
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.name{
+    padding-top: 10px;
+}
+button:hover{
+    background-color: #E65100 ;
+}
+.submit{
+    display: block ;
+    background-color: #F99035;
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 100px ;
+    margin-bottom: 27px;
+    width: 510px;
+    height: 48px;
+}
+.password{
+    width: 200px;
+}
+.checkbox{
+    margin-top: 36px;
+    margin-left: 10px ;
+    margin-bottom: 38px;
+}
+.Remember_me{
+    margin-left: 40px ;
+    margin-top: 20px;
+    position: relative;
+    top: -4px;
+}
+.chbox{
+    border-color: #282A36;
+    margin: 0 0 0 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 8px;
+    opacity: 100%;
+    shape-outside: margin-box;
+}
+.container{
+    background-color: #282A36;
+    width: 1053px;
+    height: 871px; 
+    margin: auto;
+    border-radius: 24px;
+}
+.img{
+    box-sizing: border-box;
+    width: 199px;
+    height: 48px;
+    margin: auto;
+    margin-top: -7px;
+}
+img{
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+}
+.image{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px #000000;
+}
+#github{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.Login{
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 0;
+    font-size: 12px;
+    color: #007AFF;
+}
+.Logindiv{
+    display: inline-block;
+    margin: auto;
+    margin-top: 25px;
+}
+.account{
+    font-size: 12px;
+    margin: 0 0 49px 50px;
+}
+input[type="email"]{
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    outline: none;
+}
+input[type="email"]:focus{
+    border: 3px solid black;
+}
+input[type="password"]{
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    outline: none;
+}
+input[type="password"]:focus{
+    border: 3px solid black;
+}
+input[type="text"]{
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    outline: none;
+}
+input[type="text"]:focus{
+    border: 3px solid black;
+}
+.input {
+    position: relative;
+    margin-top: 12px;
+}
+.input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 0px ;
+}
+.input  label {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-40%);
+    pointer-events: none; /* To avoid interfering with input clicks */
+    transition:all 0.3s ease;
+    font-size: 16px;
+    color: #000;
+}
+.input input:focus ~ label,
+.input input:not(:placeholder-shown) ~ label {
+    top: -4px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0 4px;
+}
+#Fingerprint{
+    width: 163.2px;
+    height: 246.31px;
+    margin-left: 104px;
+}
+.Secure{
+    width: 371px;
+    height: 30px;
+    text-align: center;
+    font-family: "Orbitron";
+    color: #ffffff;
+}
+.finger{
+    display: inline-block;
+    width: 371px;
+    height: 310px;
+    position: relative;
+    top: -590px;
+    left: 637px;
+    font-size: 24px;
+}
+.lien{
+    text-align: center;
+}
+hr{
+    width: 286px;
+    border-width: 1px;   
+}
+.SpSignup{
+    font-size: 12px;
+    position: relative;
+    top: -22px;
+    background-color: #ffffff;
+    padding: 4px;
+}
